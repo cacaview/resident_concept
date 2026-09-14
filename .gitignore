@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+dist/
+.env
+*.sqlite3
+resident_home/*
+!resident_home/README.md
+resident_home_live_s*/*
+!resident_home_live_s*/baseline_manifest.json
+backend/out/
+.playwright-mcp/
+.DS_Store
