@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+dist/
+.env
+.env.local
+*.sqlite3
+resident_home/*
+!resident_home/README.md
+resident_home_live_s*/*
+!resident_home_live_s*/baseline_manifest.json
+backend/out/
+# Internal ops reports (internal IPs, host details) — never committed.
+# Public mirror publishing is `make sync-public` only.
+docs/operations/
+.playwright-mcp/
+.DS_Store
